@@ -1,0 +1,95 @@
+body {
+  background-color: #fff2bc;
+}
+.Jumbotron {
+  background-color: #ff5a0b;
+  padding-top: 5rem;
+}
+#Product {
+  background-color: #ff5a0b;
+  padding-top: 3rem;
+}
+footer {
+  background-color: #ff0000;
+}
+.naik {
+  scroll-margin-top: 4rem;
+}
+.naikjuga {
+  scroll-margin-top: 1rem;
+}
+.card-body a {
+  background-color: #ff5a0b;
+  border: 0;
+  color: #fff;
+}
+.card-body a:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+.Jumbotron p,
+.Jumbotron h1,
+.col h2 {
+  text-shadow: 3px 3px 3px rgb(193, 0, 0);
+}
+
+.row .col-md-4 .card {
+  background-color: #fff2bc;
+}
+.naikjuga h2 {
+  color: #fff2bc;
+}
+#Form {
+  background-color: #ff5a0b;
+}
+.box {
+  text-shadow: 2px 2px #ff0000;
+}
+.gallery-img .col a img {
+  transition: 500ms;
+}
+.gallery-img .col a:hover img {
+  transform: scale(1.02);
+}
+.OVERLAY {
+  position: fixed;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 0.7s;
+  text-align: center;
+
+  padding: 100px 0;
+}
+.OVERLAY:target {
+  width: auto;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.OVERLAY img {
+  max-height: 100%;
+
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+  align-self: center;
+}
+
+.OVERLAY:target img {
+  animation: animasilangsung 0.6s;
+}
+@keyframes animasibiasa {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
